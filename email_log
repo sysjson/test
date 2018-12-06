@@ -1,0 +1,30 @@
+PS C:\Users\lenovo\Desktop\workspace> cd 'c:\Users\lenovo\Desktop\workspace'; ${env:PYTHONIOENCODING}='UTF-8'; ${env:PYTHONUNBUFFERED}='1'; & 'C:/python/python.exe' 'c:\Users\lenovo\.vscode-insiders\extensions\ms-python.python-2018.11.0\pythonFiles\experimental\ptvsd_launcher.py' '--default' '--client' '--host' 'localhost' '--port' '49279' 'c:\Users\lenovo\Desktop\workspace\test.py'
+Email: 15910592561@sina.cn
+Password: a328521
+POP3 server: pop3.sina.com.cn
++OK sina pop3 server ready
+*cmd* 'USER 15910592561@sina.cn'
+*cmd* 'PASS a328521'
+*cmd* 'STAT'
+*stat* [b'+OK', b'3', b'15874']
+Messages: 3. Size: 15874
+*cmd* 'LIST'
+[b'1 10606', b'2 2488', b'3 2780']
+*cmd* 'RETR 3'
+From: wujinghua <15910592561@163.com>
+To:  <15910592561@sina.cn>
+Cc:  <jinghua.wu@cienet.com.cn> <1163084202@qq.com>
+Subject: test
+part 0
+--------------------
+  Text: hi
+
+
+
+
+
+ ...
+part 1
+--------------------
+  Text: <div style="line-height:1.7;color:#000000;font-size:14px;font-family:Arial"><div style="line-height:1.7;color:#000000;font-size:14px;font-family:Arial"><div>hi</div></div><br><br><span title="neteasefooter"><p><br>&nbsp;</p></span></div><br><br><span title="neteasefooter"><p><br/>&nbsp;</p></span>...
+PS C:\Users\lenovo\Desktop\workspace>
